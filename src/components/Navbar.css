@@ -15,3 +15,49 @@
 .navbar-body li {
   padding: 1rem;
 }
+
+.navbar-body li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-body li a:hover {
+  cursor: pointer;
+  animation: flicker 2s linear infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.5;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 0.5;
+  }
+  94% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0.5;
+  }
+  98% {
+    opacity: 1;
+  }
+}

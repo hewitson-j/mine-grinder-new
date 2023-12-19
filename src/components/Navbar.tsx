@@ -4,10 +4,18 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <ul className="navbar-body">
-        <li>Home</li>
-        <li>About the Author</li>
-        <li>Art</li>
-        <li>Buy Book</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About the Author</a>
+        </li>
+        <li>
+          <a href="#art">Art</a>
+        </li>
+        <li>
+          <a href="#buy">Buy Book</a>
+        </li>
       </ul>
     </div>
   );
