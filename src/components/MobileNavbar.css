@@ -1,0 +1,37 @@
+.mobile-navbar {
+  background: linear-gradient(to right, black, #63380c, black);
+}
+
+.mobile-navbar-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.mobile-navbar-buttons button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: "Patua One";
+  font-size: 18pt;
+  padding: 1rem;
+}
+
+.mobile-navbar-menu {
+  background: linear-gradient(to right, black, #3c2208, black);
+}
+
+.mobile-navbar-menu ul {
+  list-style: none;
+}
+
+.mobile-navbar-menu ul li {
+  padding: 0.5rem;
+}
+
+.mobile-navbar-menu ul li a {
+  text-decoration: none;
+  color: white;
+}
