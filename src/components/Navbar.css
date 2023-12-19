@@ -1,0 +1,17 @@
+.navbar {
+  text-align: center;
+  background: linear-gradient(to right, black, #63380c, black);
+  font-size: 16pt;
+}
+
+.navbar-body {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.navbar-body li {
+  padding: 1rem;
+}

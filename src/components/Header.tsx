@@ -1,4 +1,5 @@
 import "./Header.css";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
@@ -7,6 +8,7 @@ export default function Header() {
         MINE GRINDER:
         <br />A LEGACY OF HORROR
       </h1>
+      <Navbar />
     </div>
   );
 }
