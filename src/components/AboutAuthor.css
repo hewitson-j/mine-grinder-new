@@ -1,0 +1,12 @@
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+.about img {
+  max-width: 250px;
+}
+
+.about p {
+  text-align: left;
+}
