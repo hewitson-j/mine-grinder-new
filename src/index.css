@@ -5,3 +5,11 @@ body {
     Times, serif;
   text-align: center;
 }
+
+p {
+  font-size: 16pt;
+}
+
+h2 {
+  font-size: 22pt;
+}
