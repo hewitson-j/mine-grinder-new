@@ -22,13 +22,13 @@
 #buy-button {
   font-family: "Patua One", "Times New Roman", Times, serif;
   font-size: 16pt;
-  background-color: #63380c;
+  background: linear-gradient(to right, black, #63380c, black);
   padding: 1rem;
   text-decoration: none;
   color: white;
 }
 
 #buy-button:hover {
-  background-color: #3c2208;
+  background: linear-gradient(to right, black, #3c2208, black);
   color: red;
 }
