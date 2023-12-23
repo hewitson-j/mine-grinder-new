@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Countdown() {
   const [isCounting, setIsCounting] = useState(true);
   const [isFinished, setIsFinished] = useState(false);
-  const [minutes, setMinutes] = useState(1);
+  const [minutes, setMinutes] = useState(5);
   const [seconds, setSeconds] = useState(0);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (isCounting) {
@@ -26,6 +29,14 @@ export default function Countdown() {
     }
   }, [isCounting, minutes, seconds]);
 
+  useEffect(() => {
+    if (!isCounting && isFinished) {
+      setTimeout(() => {
+        navigate("/jumpscare");
+      }, Math.random() * 15000 + 5);
+    }
+  }, [isCounting, isFinished, navigate]);
+
   const minutesText =
     minutes < 10 ? `0${minutes.toString()}` : minutes.toString();
   const secondsText =
@@ -39,10 +50,16 @@ export default function Countdown() {
       </div>
       <button
         onClick={() => {
-          setIsCounting(!isCounting);
+          if (!isFinished) {
+            setIsCounting(!isCounting);
+          }
         }}
       >
-        {isCounting ? "Stop Countdown" : "Resume Countdown"}
+        {isCounting
+          ? "Stop Countdown"
+          : isFinished
+          ? "Too late..."
+          : "Resume Countdown"}
       </button>
     </div>
   );
