@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Header.css";
 import Navbar from "./Navbar";
 import MobileNavbar from "./MobileNavbar";
+import Countdown from "./Countdown";
 
 export default function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -25,6 +26,7 @@ export default function Header() {
         <br />A LEGACY OF HORROR
       </h1>
       {windowWidth >= 730 ? <Navbar /> : <MobileNavbar />}
+      <Countdown />
     </div>
   );
 }

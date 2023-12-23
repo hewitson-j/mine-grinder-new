@@ -14,7 +14,6 @@ export default function MobileNavbar() {
         <button id="mobile-hamburger-button" onClick={handleOpen}>
           ☰
         </button>
-        <button id="mobile-prevent-animation-button">Prevent Animation</button>
       </div>
       {isOpen ? (
         <div className="mobile-navbar-menu">
