@@ -32,11 +32,18 @@ export default function Countdown() {
     seconds < 10 ? `0${seconds.toString()}` : seconds.toString();
 
   return (
-    <>
+    <div className="countdown">
       {!isFinished ? <div>Time to Lights Out:</div> : <div>Time's up...</div>}
-      <div className="time">
+      <div className="countdown-time">
         {minutesText}:{secondsText}
       </div>
-    </>
+      <button
+        onClick={() => {
+          setIsCounting(!isCounting);
+        }}
+      >
+        {isCounting ? "Stop Countdown" : "Resume Countdown"}
+      </button>
+    </div>
   );
 }
