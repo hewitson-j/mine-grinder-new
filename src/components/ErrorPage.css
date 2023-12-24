@@ -1,0 +1,47 @@
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 90vh;
+}
+
+.error-page-content {
+  margin: auto;
+}
+
+.error-page-content button {
+  font-family: "Patua One", "Times New Roman", Times, serif;
+  color: white;
+  font-size: 16pt;
+  padding: 1rem;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #63380c 20%,
+    #63380c 80%,
+    black 100%
+  );
+  width: 300px;
+  border: none;
+}
+
+.error-page-content button:hover {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #4d2b08 20%,
+    #4d2b08 80%,
+    black 100%
+  );
+  cursor: pointer;
+}
+
+.error-page-content button:active {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #351d06 20%,
+    #351d06 80%,
+    black 100%
+  );
+}
