@@ -1,0 +1,10 @@
+.jumpscare {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 90vh;
+}
+
+.jumpscare-body {
+  margin: auto;
+}
