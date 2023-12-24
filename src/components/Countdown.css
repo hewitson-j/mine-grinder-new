@@ -1,11 +1,41 @@
 .countdown {
-  margin-top: 1rem auto;
+  margin-top: 1rem;
 }
 
 .countdown button {
   color: white;
-  background-color: brown;
   width: 20%;
   min-width: 300px;
-  padding: 1rem;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border: none;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #63380c 20%,
+    #63380c 80%,
+    black 100%
+  );
+  font-family: "Patua One", "Times New Roman", Times, serif;
+}
+
+.countdown button:hover {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #4d2b08 20%,
+    #4d2b08 80%,
+    black 100%
+  );
+  cursor: pointer;
+}
+
+.countdown button:active {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    #351d06 20%,
+    #351d06 80%,
+    black 100%
+  );
 }
