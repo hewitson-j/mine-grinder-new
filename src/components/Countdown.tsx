@@ -33,7 +33,7 @@ export default function Countdown() {
   useEffect(() => {
     if (!isCounting && isFinished) {
       setTimeout(() => {
-        navigate("/jumpscare");
+        navigate("/it");
       }, Math.random() * 15000 + 5);
     }
   }, [isCounting, isFinished, navigate]);
