@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Countdown.css";
 
 export default function Countdown() {
   const [isCounting, setIsCounting] = useState(true);
