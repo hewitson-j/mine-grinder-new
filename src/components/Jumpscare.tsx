@@ -1,7 +1,17 @@
 import "./Jumpscare.css";
 import mg1 from "../assets/MG1.jpg";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Jumpscare() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/");
+    }, 10500);
+  }, [navigate]);
+
   return (
     <div className="jumpscare">
       <div className="jumpscare-body">
