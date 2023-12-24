@@ -3,8 +3,107 @@
   justify-content: center;
   align-content: center;
   height: 90vh;
+  overflow: hidden;
 }
 
 .jumpscare-body {
+  display: grid;
   margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.jumpscare-body div {
+  margin: auto;
+  font-size: 16pt;
+  color: transparent;
+}
+
+#message1 {
+  grid-row: 1;
+  grid-column: 1;
+  animation: messages-appear 2s 1;
+}
+
+#message2 {
+  grid-row: 2;
+  grid-column: 1;
+  animation: messages-appear 2s 1 2s;
+}
+
+#message3 {
+  grid-row: 1;
+  grid-column: 3;
+  animation: messages-appear 2s 1 4s;
+}
+
+#message4 {
+  grid-row: 2;
+  grid-column: 3;
+  animation: messages-appear 2s 1 6s;
+}
+
+#grinder-image {
+  grid-row: span 2;
+  grid-column: 2;
+  animation: image-grow 3s 1 8s;
+}
+
+@keyframes messages-appear {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  10% {
+    color: white;
+  }
+  20% {
+    color: rgba(255, 255, 255, 0);
+  }
+  25% {
+    color: white;
+  }
+  30% {
+    color: rgba(255, 255, 255, 0);
+  }
+  35% {
+    color: white;
+  }
+  60% {
+    color: rgba(255, 255, 255, 0);
+  }
+  70% {
+    color: white;
+  }
+  100% {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes image-grow {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(5);
+  }
 }
