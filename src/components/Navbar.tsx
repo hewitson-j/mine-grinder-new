@@ -3,7 +3,7 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <ul className="navbar-body">
+      <ul className="navbar-body" role='navigation' aria-label="Navbar">
         <li>
           <a href="#home">Home</a>
         </li>

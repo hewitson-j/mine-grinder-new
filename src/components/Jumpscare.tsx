@@ -13,7 +13,11 @@ export default function Jumpscare() {
   }, [navigate]);
 
   return (
-    <div className="jumpscare">
+    <div
+      className="jumpscare"
+      role="contentinfo"
+      aria-label="Beware the Mine Grinder - Animation"
+    >
       <div className="jumpscare-body">
         <div id="message1">RUN</div>
         <div id="message2">FIGHT</div>

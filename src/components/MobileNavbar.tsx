@@ -17,7 +17,7 @@ export default function MobileNavbar() {
       </div>
       {isOpen ? (
         <div className="mobile-navbar-menu">
-          <ul>
+          <ul role="navigation" aria-label="Navbar">
             <li>
               <a href="#home">Home</a>
             </li>
