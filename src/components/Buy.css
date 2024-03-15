@@ -21,8 +21,9 @@
 
 #buy-button {
   font-family: "Patua One", "Times New Roman", Times, serif;
+  width: 300px;
   font-size: 16pt;
-  background: linear-gradient(to right, black, #63380c, black);
+  background: linear-gradient(to right, black 0%, #3c2208 10%, #63380c 50%, #3c2208 90%, black 100%);
   padding: 1rem;
   text-decoration: none;
   color: white;
