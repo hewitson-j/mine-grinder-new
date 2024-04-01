@@ -1,0 +1,11 @@
+.terms-of-service {
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.terms-of-service ul {
+    width: 80%;
+    text-align: left;
+    margin: auto;
+}

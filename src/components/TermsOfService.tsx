@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import './TermsOfService.css'
 
 export default function TermsOfService(){
     const navigate = useNavigate()
@@ -38,7 +39,7 @@ export default function TermsOfService(){
         <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
         </li>
         <li>
-        <p><strong>Website</strong> refers to Mine Grinder, accessible from <a href="minegrinder.com" rel="external nofollow noopener" target="_blank">minegrinder.com</a></p>
+        <p><strong>Website</strong> refers to Mine Grinder, accessible from <a href="http://minegrinder.com/" rel="external nofollow noopener" target="_blank">minegrinder.com</a></p>
         </li>
         <li>
         <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
