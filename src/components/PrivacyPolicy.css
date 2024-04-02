@@ -1,0 +1,12 @@
+.privacy-policy {
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+}
+
+.privacy-policy ul {
+    width: 80%;
+    text-align: left;
+    min-width: 300px;
+    margin: auto;
+}
