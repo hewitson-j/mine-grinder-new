@@ -75,6 +75,7 @@ export default function TermsOfService(){
         <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.</p>
 
         <h2>Material, Content, and Trademarks</h2>
+        <p></p>
 
         <h2>Governing Law</h2>
         <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
