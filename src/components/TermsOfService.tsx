@@ -81,6 +81,9 @@ export default function TermsOfService(){
         <p>
         You may not use any of the Material hosted on our Service without written consent by the Company. To request consent to use any of the copyrighted Material on this website, you may contact Us using one of the following methods:
         </p>
+        <ul>
+        <li>By email: jacob.a.hewitson@gmail.com</li>
+        </ul>
 
         <h2>Governing Law</h2>
         <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
