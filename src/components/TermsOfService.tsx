@@ -88,6 +88,10 @@ export default function TermsOfService(){
         <ul>
             <li>Currently, there is no material displayed that is not under copyright or ownership of the Company.</li>
         </ul>
+        <p>In certain instances, the Company generated text and images in part with large-scale AI language-generation and image-generation models for this Service. Upon generating draft language and images, the Company reviewed, edited, and revised the language and images to their own liking and takes ultimate responsibility and copyright ownership for the co-authored Material of this Service. Included below is a full list of Material which was generated through this method:</p>
+        <ul>
+            <li>Book illustrations and artwork was generated using this method.</li>
+        </ul>
 
         <h2>Governing Law</h2>
         <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
