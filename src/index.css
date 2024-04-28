@@ -14,6 +14,18 @@ h2 {
   font-size: 22pt;
 }
 
+.legal {
+  width: 80%;
+  min-width: 300px;
+  margin: auto;
+}
+
+.legal ul {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+
 @media screen and (max-width: 800px) {
   p {
     font-size: 14pt;
