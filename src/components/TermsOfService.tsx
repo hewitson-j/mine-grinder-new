@@ -4,7 +4,7 @@ import './TermsOfService.css'
 export default function TermsOfService(){
     const navigate = useNavigate()
 
-    return <div className="terms-of-service">
+    return <div className="legal">
         <h1>Terms and Conditions</h1>
         <p>Last updated: April 01, 2024</p>
         <button onClick={() => {

@@ -4,7 +4,7 @@ import './PrivacyPolicy.css'
 export default function PrivacyPolicy(){
     const navigate = useNavigate()
     return (
-        <div className="privacy-policy">
+        <div className="legal">
             <h1>Privacy Policy</h1>
             <p>Last updated: April 01, 2024</p>
             <button onClick={() => {
