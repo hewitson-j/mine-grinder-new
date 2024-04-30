@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom"
-import './TermsOfService.css'
 
 export default function TermsOfService(){
     const navigate = useNavigate()
