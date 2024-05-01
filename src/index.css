@@ -26,6 +26,22 @@ h2 {
   margin: auto;
 }
 
+.legal button {
+  font-family: "Patua One", serif, "Old Standard TT", serif, "Times New Roman",
+    Times, serif;
+  color: white;
+  background-color: #63380c;
+  font-size: 14pt;
+  border: none;
+  border-radius: 10px;
+  padding: .75rem;
+}
+
+.legal button:hover {
+  background-color: #351d06;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
   p {
     font-size: 14pt;
