@@ -2,7 +2,7 @@
   "name": "mine-grinder-new",
   "homepage": "minegrinder.com",
   "private": true,
-  "version": "2.0.11",
+  "version": "2.0.12",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "deploy" : "gh-pages -d dist",
+    "fix": "npm audit fix"
   },
   "dependencies": {
     "react": "^18.2.0",
