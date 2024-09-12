@@ -1,5 +1,8 @@
 # MineGrinder.com
 
+## 2.0.15 - 9/11/2024
+Moved Art to component folder
+
 ## 2.0.14 - 9/8/2024
 Refactored images
 

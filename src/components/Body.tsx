@@ -1,5 +1,5 @@
 import AboutAuthor from "./AboutAuthor";
-import Art from "./Art";
+import Art from "./Art/Art";
 import Buy from "./Buy";
 import Copyright from "./Copyright";
 import Home from "./Home";
