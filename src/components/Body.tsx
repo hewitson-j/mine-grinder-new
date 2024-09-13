@@ -1,4 +1,4 @@
-import AboutAuthor from "./AboutAuthor";
+import AboutAuthor from "./About/AboutAuthor";
 import Art from "./Art/Art";
 import Buy from "./Buy";
 import Copyright from "./Copyright";

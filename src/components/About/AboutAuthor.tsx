@@ -1,6 +1,6 @@
-import authorPic from "../assets/DH.jpg";
+import authorPic from "../../assets/DH.jpg";
 import "./AboutAuthor.css";
-import ParagraphSections from "./ParagraphSections";
+import ParagraphSections from "../ParagraphSections";
 
 const paragraphs = [
   `Dave “Huey” Hewitson was born in the 70’s and from an early age loved
