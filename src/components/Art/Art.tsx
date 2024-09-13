@@ -1,3 +1,4 @@
+import ArtImage from "./ArtImage";
 import "./Art.css";
 
 import abismoDeLaPlata from "../../assets/AdlP.jpg";
@@ -6,7 +7,6 @@ import mg2 from "../../assets/MG2.jpg";
 import shack from "../../assets/Shack.jpg";
 import tunnel1 from "../../assets/Tunnel.jpg";
 import tunnel2 from "../../assets/Tunnel2.jpg";
-import ArtImage from "./ArtImage";
 
 export default function Art() {
   const imagesArray = [
