@@ -1,5 +1,8 @@
 # MineGrinder.com
 
+## 2.0.18 - 9/13/2024
+Moved body components to utils folder
+
 ## 2.0.17 - 9/13/2024
 Moved Buy to component folder
 
