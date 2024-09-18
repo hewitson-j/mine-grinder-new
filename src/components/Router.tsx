@@ -2,8 +2,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import Content from "./utils/Content";
 import Jumpscare from "./Jumpscare";
 import ErrorPage from "./ErrorPage";
-import TermsOfService from "./TermsOfService";
-import PrivacyPolicy from "./PrivacyPolicy";
+import TermsOfService from "./legal/TermsOfService";
+import PrivacyPolicy from "./legal/PrivacyPolicy";
 
 export default function Router() {
   return (

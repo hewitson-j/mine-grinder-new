@@ -1,5 +1,8 @@
 # MineGrinder.com
 
+## 2.0.19 - 9/18/2024
+Moved Terms of Service and Privacy Policy components to utils folder
+
 ## 2.0.18 - 9/13/2024
 Moved body components to utils folder
 
