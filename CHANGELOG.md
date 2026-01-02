@@ -1,6 +1,6 @@
 # MineGrinder.com
 
-## 2.0.19 - 9/18/2024
+## 2.0.20 - 1/2/2026
 Updated dependencies
 
 ## 2.0.19 - 9/18/2024
